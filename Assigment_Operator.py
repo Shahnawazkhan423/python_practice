@@ -1,0 +1,19 @@
+#Assigment Operators
+var1=4
+var1+=5
+print(var1)
+var2=5
+var2-=5
+print(var2)
+var3=6
+var3*=5
+print(var3)
+var4=8
+var4/=5
+print(var4)
+var5=6
+var5%=9
+print(var5)
+var6=7
+var6**=5
+print(var6)
