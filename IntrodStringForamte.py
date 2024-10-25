@@ -1,0 +1,5 @@
+name = str(input("Enter Your Name:"))
+background = str(input("Enter Your Background:"))
+Unversity = input("Enter Your University:")
+Address = input("Enter Your Address:")
+print("My name {}, and I have a background in {}. I graduated from State University with a degree in {}.my Address is {}".format(name,background,Unversity,Address))
