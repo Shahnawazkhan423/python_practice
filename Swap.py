@@ -1,10 +1,12 @@
 a = 5
 b = 8 
-#With Temp Variable
-x = (a+b)-a
-print(x)
-y = (a+b)-b
-print(y)
 #Without Temp Varible
-a,b=b,a
+a = a+b
+b = a-b
+a = a-b
+print(a,b)
+#With Temp Variable
+temp = a 
+a = b
+b = temp		
 print(a,b)
