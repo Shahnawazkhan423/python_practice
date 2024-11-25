@@ -26,7 +26,7 @@ def List_Average_Find(user):
 		List2=Temp
 	return List2
 
-user = int(input("How Many Type Enter Value:"))
+user = int(input("How Many Enter Value:"))
 result = List_Average_Find(user)
 print("Total Sum is: ",result)
 print("Average is:",result/user)
